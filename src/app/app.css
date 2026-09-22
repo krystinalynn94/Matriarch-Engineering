@@ -1,0 +1,57 @@
+/*Matriarch Engineering - Core Brand Color */
+
+:host {
+    --deep-plum: #301D36;
+    --royal-plum: #40264A;
+    --champagne-gold: #C9B08F;
+    --soft-ivory: #EFE2D3;
+    --dark-plum: #180F1C;
+
+    display: block;
+}
+
+/* Wedsite Header */
+
+site-header {
+    background-color: var(--deep-plum);
+    color: var(--soft-ivory);
+    padding: 2rem 4rem;
+    border-bottom: 1px solid var(--champagne-gold);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand h1 {
+    color: var(--champagne-gold);
+    margin: 0;
+}
+
+.brand p {
+    color: var(--soft-ivory);
+    margin: 0.5rem 0 0;
+}
+
+.main-navigation {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-navigation a{
+    color: var(--champagne-gold);
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+    color: var(--soft-ivory);
+}
+
+/* Main Content Area */
+
+main{
+    background-color: var(--soft-ivory);
+    color: var(--dark-plum);
+    min-height: 70vh;
+    padding: 4rem;
+}
