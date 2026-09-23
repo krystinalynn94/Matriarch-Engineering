@@ -12,7 +12,7 @@
 
 /* Wedsite Header */
 
-site-header {
+.site-header {
     background-color: var(--deep-plum);
     color: var(--soft-ivory);
     padding: 2rem 4rem;
@@ -50,8 +50,62 @@ site-header {
 /* Main Content Area */
 
 main{
-    background-color: var(--soft-ivory);
+    background-color: var(--deep-plum);
     color: var(--dark-plum);
     min-height: 70vh;
     padding: 4rem;
+}
+
+/*Hero Section */
+
+.hero {
+    background-color: var(--deep-plum);
+    color: var(--soft-ivory);
+    min-height:60vh;
+    padding:8rem 4rem;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: var(--soft-ivory);
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    margin: 0;
+}
+
+.hero h2 img {
+    width: 90px;
+    height: auto;
+    vertical-align: -0.07em;
+}
+
+/* Footer Section */
+.site-footer {
+    background-color:var(--deep-plum);
+    color: var(--soft-ivory);
+    padding: 3rem 4rem;
+    border-top: 1px solid var(--champagne-gold);
+    text-align: center;
+}
+
+.footer-brand h2 {
+    color: var(--champagne-gold);
+    margin: 0;
+}
+
+.footer-brand p {
+    color: var(--soft-ivory);
+    margin: 0.75rem 0 2rem;
+    leter-spacing: 0.15rem;
+}
+
+.copyright {
+    color: var(--soft-ivory);
+    font-size: 0.85rem;
+    margin: 0;
 }
