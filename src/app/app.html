@@ -2,22 +2,32 @@
 <header class = "site-header">
     <div class = "brand">
       <h1>Matriarch Engineering</h1>
-      <p>Engineered by ME. Designed for you.</p>
+      <p class = "brand-motto">Imagine · Create · Empower</p>
     </div>
 
     <nav class="main-navigation">
       <a routerLink="/">Home</a>
       <a routerLink="/portfolio">Portfolio</a>
       <a routerLink="/about">About ME</a>
+      <a routerLink="/contact">Contact</a>
     </nav>
 </header>
 
-<!-- Page Content -->
-<main>
-  <router-outlet />
-</main>
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Technology begins with 
+    <img src="ME-only-logo.png" alt="ME">
+  </h2>
+</section>
+
+<router-outlet/>
 
 <!-- Footer -->
 <footer class="site-footer">
+  <div class="footer-brand">
+    <h2>Matriarch Engineering</h2>
+    <p>Imagine · Create · Empower</p>
+  </div>
+
   <p>&copy; 2026 Matriarch Engineering</p>
 </footer>
