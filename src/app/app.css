@@ -10,7 +10,7 @@
     display: block;
 }
 
-/* Wedsite Header */
+/* Website Header */
 
 .site-header {
     background-color: var(--deep-plum);
@@ -26,11 +26,6 @@
 .brand h1 {
     color: var(--champagne-gold);
     margin: 0;
-}
-
-.brand p {
-    color: var(--soft-ivory);
-    margin: 0.5rem 0 0;
 }
 
 .main-navigation {
@@ -56,34 +51,6 @@ main{
     padding: 4rem;
 }
 
-/*Hero Section */
-
-.hero {
-    background-color: var(--deep-plum);
-    color: var(--soft-ivory);
-    min-height:60vh;
-    padding:8rem 4rem;
-
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-}
-
-.hero h2 {
-    color: var(--soft-ivory);
-    font-size: 3.5rem;
-    font-weight: 400;
-    letter-spacing: 0.08rem;
-    margin: 0;
-}
-
-.hero h2 img {
-    width: 90px;
-    height: auto;
-    vertical-align: -0.07em;
-}
-
 /* Footer Section */
 .site-footer {
     background-color:var(--deep-plum);
@@ -93,19 +60,22 @@ main{
     text-align: center;
 }
 
-.footer-brand h2 {
-    color: var(--champagne-gold);
-    margin: 0;
+.footer-brand {
+    display: inline-block;
+    background-color: var(--soft-ivory);
+    padding: 1rem;
+    border-radius: 4px;
 }
 
-.footer-brand p {
-    color: var(--soft-ivory);
-    margin: 0.75rem 0 2rem;
-    leter-spacing: 0.15rem;
+.footer-brand img {
+    width:180px;
+    height: auto;
+    display: block;
 }
 
 .copyright {
     color: var(--soft-ivory);
     font-size: 0.85rem;
-    margin: 0;
+    margin: 1.5rem 0 0;
 }
+

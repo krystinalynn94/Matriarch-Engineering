@@ -1,0 +1,27 @@
+/*Hero Section */
+
+.hero {
+    background-color: var(--deep-plum);
+    color: var(--soft-ivory);
+    min-height:60vh;
+    padding:8rem 4rem;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: var(--soft-ivory);
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    margin: 0;
+}
+
+.hero h2 img {
+    width: 90px;
+    height: auto;
+    vertical-align: -0.07em;
+}
