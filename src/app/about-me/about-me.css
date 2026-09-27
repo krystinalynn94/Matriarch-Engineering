@@ -35,7 +35,17 @@
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.01rem;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.about-me-the-matriarch img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    background-color: var(--light-ivory);
+    border-radius: 1px;
 }
 
 .about-me-the-matriarch p {
