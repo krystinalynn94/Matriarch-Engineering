@@ -12,7 +12,7 @@
 }
 
 .about-me-intro {
-    max-width: 750px;
+    max-width: 800px;
     margin: 0 0 5rem 12rem;
 }
 
@@ -22,4 +22,26 @@
     line-height: 1.5;
     letter-spacing: 0.01rem;
     margin: 0;
+}
+
+.about-me-the-matriarch {
+    max-width: 800px;
+    margin: 0 0 5rem 10rem;
+}
+
+.about-me-the-matriarch h3 {
+    color: var(--soft-ivory);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    margin: 0 0 1rem 0;
+}
+
+.about-me-the-matriarch p {
+    color: var(--light-ivory);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    margin: 0 0 3rem 2rem;
 }
