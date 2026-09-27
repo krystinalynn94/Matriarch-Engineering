@@ -6,6 +6,7 @@
     --champagne-gold: #C9B08F;
     --soft-ivory: #EFE2D3;
     --dark-plum: #180F1C;
+    --light-ivory: #F8F4EE;
 
     display: block;
 }
@@ -14,7 +15,7 @@
 
 .site-header {
     background-color: var(--deep-plum);
-    color: var(--soft-ivory);
+    color: var(--light-ivory);
     padding: 2rem 4rem;
     border-bottom: 1px solid var(--champagne-gold);
 

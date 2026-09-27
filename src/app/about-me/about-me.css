@@ -1,0 +1,25 @@
+.about-me-page {
+    background-color: var(--deep-plum);
+    color: var(--soft-ivory);
+    min-height: 70vh;
+    padding: 3rem 4rem;    
+}
+
+.about-me-header {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 0 2rem 10rem;
+}
+
+.about-me-intro {
+    max-width: 750px;
+    margin: 0 0 5rem 12rem;
+}
+
+.about-me-intro p {
+    color: var(--light-ivory);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    margin: 0;
+}
